@@ -22,6 +22,7 @@
     - logout.php = gerer la deconnexion
     - prestation.php = presentation des service pour le client les tarif
     - dashbord.php = gerer la partie admin si le patron souhaite consulté (optionnel).
+    - mention.php = mise en place de mention légal
 
 
 
@@ -38,22 +39,24 @@
 
     --------------PréProduction---------------
 
-    - [] Préparé le projet sur github
-    - [] Maquette Desktop
-    - [] Maquette mobile
+    - [x] Préparé le projet sur github
+    - [x] Maquette Desktop
+
 
 
     -------------DeveloppementFrontend--------------
 
-    - [] Mise en place des point d'entrer dynamique de fichier via index.php
+    - [x] Mise en place des point d'entrer dynamique de fichier via index.php
     - [] Mise en place page d'accueil (presentation, photo du patron )
     - [] Prestation de service tarifaire
-    - [] Formulaire de connexion
-    - [] Formulaire de mots de passe oublié
-    - [] Formulaire d'inscription
+    - [x] Formulaire de connexion
+    - [x] Formulaire de mots de passe oublié
+    - [x] Formulaire d'inscription
     - [] Mise en place calendrier de rdv
     - [] Mise en place de systeme de rdv
+    - [] Affichage des créneaux disponibles dynamiquement
     - [] Formulaire de contact
+    - [] faire un interface admin 
 
 
 
@@ -65,6 +68,8 @@
     - [] Mise en place d'authentification d'inscription
     - [] Mise en place d'envoi d'email lors d'un formulaire de contact
     - [] Mise en place d'envoi d'email lors de la prise de rdv
+    - [] Gestion de prise de crenaux pour que l'utilisateur  puisse voir a l'avance les crenaux disponible
+    - [] Implémenter la gestion synchronisée des créneaux (admin ↔ utilisateur)
 
 
     ----------------------test----------------------------
@@ -79,8 +84,6 @@
     - [] Verification si le formulaire de connexion fonctionne 
     - [] Verification si le formulaire de inscription fonctionne 
     - [] Verification si le formulaire de deconnexion fonctionne 
-
-
 
 
     ------- Déploiement-------------------------------------
