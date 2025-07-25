@@ -1,0 +1,56 @@
+ .card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+/* Zoom de l’image au survol */
+.card img {
+  transition: transform 0.4s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* Effet doux sur les boutons */
+.card-body .btn {
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+.card-body .btn:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.bg-washafo-blue {
+  background-color: #009ef7; /* bleu doux, pas saturé */
+}
+
+.text-washafo-blue {
+  color: #0078c8;
+}
+
+.text-washafo-yellow {
+  color: #fcbf00;
+}
+
+.btn-washafo-yellow {
+  background-color: #fcbf00;
+  border: none;
+}
+
+.btn-washafo-yellow:hover {
+  background-color: #e6ac00;
+}

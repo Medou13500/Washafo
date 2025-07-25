@@ -1,12 +1,6 @@
-<style>
-  .card:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease-in-out;
-  }
-</style>
-<div class="container py-5">
-  <div class="row justify-content-center align-items-stretch">
-
+<link rel="stylesheet" href="../public /assets/css/style.css">
+    <div class="container py-5">
+    <div class="row justify-content-center align-items-stretch">
     <!-- Carte 1 : Voiture -->
         <div class="col-md-3 mb-4 d-flex">
         <div class="card bg-light text-dark shadow text-center h-100 w-100">
