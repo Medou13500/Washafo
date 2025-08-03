@@ -48,7 +48,7 @@
 
     - [x] Mise en place des point d'entrer dynamique de fichier via index.php
     - [] Mise en place page d'accueil (presentation, photo du patron )
-    - [] Prestation de service tarifaire
+    - [x] Prestation de service tarifaire
     - [x] Formulaire de connexion
     - [x] Formulaire de mots de passe oublié
     - [x] Formulaire d'inscription
