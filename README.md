@@ -55,7 +55,7 @@
     - [] Mise en place calendrier de rdv
     - [] Mise en place de systeme de rdv
     - [] Affichage des créneaux disponibles dynamiquement
-    - [] Formulaire de contact
+    - [x] Formulaire de contact
     - [] faire un interface admin 
 
 

@@ -30,7 +30,6 @@
               <a href="?page=mdpOublie" class="text-primary font-weight-bold">Mot de passe oublié ?</a>
               <a href="?page=register" class="text-primary font-weight-bold">Créer un compte</a>
             </div>
-
             <button type="submit" class="btn btn-primary btn-block btn-lg">Se connecter</button>
 
           </form>
