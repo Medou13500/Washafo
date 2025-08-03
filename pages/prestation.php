@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="../public /assets/css/style.css">
-    <div class="container py-5">
-    <div class="row justify-content-center align-items-stretch">
+<div class="container py-5">
+  <div class="row justify-content-center align-items-stretch">
     <!-- Carte 1 : Voiture -->
-        <div class="col-md-3 mb-4 d-flex">
-        <div class="card bg-light text-dark shadow text-center h-100 w-100">
+      <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex">
+ <div class="card bg-light text-dark shadow text-center w-100 h-100" style="min-height: 800px;">
             <div class="card-header font-weight-bold bg-primary text-white">Nettoyage voiture</div>
             <div class="mt-2 px-3">
             <img src="../public /assets/img/NettoyageVoiture.jpeg" class="img-fluid rounded mt-2" alt="Voiture">
@@ -19,8 +19,8 @@
         </div>
 
     <!-- Carte 2 : Canapé -->
-        <div class="col-md-3 mb-4 d-flex">
-        <div class="card bg-light text-dark shadow text-center h-100 w-100">
+        <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex">
+   <div class="card bg-light text-dark shadow text-center w-100 h-100" style="min-height: 450px;">
             <div class="card-header font-weight-bold bg-success text-white">Nettoyage de canapé</div>
             <div class="mt-2 px-3">
             <img src="../public /assets/img/nettoyageCanapé.jpeg" class="img-fluid rounded mt-2" alt="Canapé">
@@ -38,8 +38,8 @@
         </div>
 
     <!-- Carte 3 : Camionnette -->
-        <div class="col-md-3 mb-4 d-flex">
-        <div class="card bg-light text-dark shadow text-center h-100 w-100">
+        <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex">
+  <div class="card bg-light text-dark shadow text-center w-100 h-100" style="min-height: 450px;">
             <div class="card-header font-weight-bold bg-info text-white">Camionnette</div>
             <div class="mt-2 px-3">
             <img src="../public /assets/img/NettoyageCamionnete.jpeg" class="img-fluid rounded mt-2" alt="Camionnette">
@@ -50,10 +50,10 @@
             </div>
         </div>
         </div>
-
+        
     <!-- Carte 4 : Matelas -->
-        <div class="col-md-3 mb-4 d-flex">
-        <div class="card bg-light text-dark shadow text-center h-100 w-100">
+        <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex">
+ <div class="card bg-light text-dark shadow text-center w-100 h-100" style="min-height: 450px;">
             <div class="card-header font-weight-bold bg-secondary text-white">Matelas</div>
             <div class="mt-2 px-3">
             <img src="../public /assets/img/matelas.webp" class="img-fluid rounded mt-2" alt="Matelas">

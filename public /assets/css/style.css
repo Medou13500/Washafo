@@ -54,3 +54,54 @@
 .btn-washafo-yellow:hover {
   background-color: #e6ac00;
 }
+html {
+  scroll-behavior: smooth;
+}
+  .hover-card {
+        transition: all 0.3s ease;
+        cursor: pointer;
+        background: #fff;
+        border-radius: 15px;
+        overflow: hidden;
+        border: none;
+    }
+    .hover-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    .card-header {
+        font-size: 1.2rem;
+        background: linear-gradient(135deg, #0d6efd, #084298);
+        border-bottom: none;
+        padding: 12px;
+    }
+    .card-body {
+        background: #f8f9fa;
+        border-radius: 0 0 15px 15px;
+        padding: 20px;
+        min-height: 120px;
+    }
+    .list-group-item {
+        background: transparent;
+        border: none;
+        padding: 8px 0;
+        font-size: 1rem;
+        color: #495057;
+    }
+ .prix-item {
+    background-color: #f8f9fa;      /* fond clair */
+    border: 2px solid #007bff;      /* bordure bleue */
+    border-radius: 10px;            /* arrondi */
+    padding: 8px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #333;
+    transition: 0.3s ease-in-out;
+}
+
+.prix-item:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.05);
+    cursor: pointer;
+}

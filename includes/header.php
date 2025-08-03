@@ -34,6 +34,9 @@
                 <a class="nav-link text-white" href="?page=rdv">Prise de Rendez Vous</a>
                 </li>
                 <li class="nav-item px-2">
+                <a class="nav-link text-white" href="?page=prestation">Prestation tarifaire</a>
+                </li>
+                <li class="nav-item px-2">
                 <a class="nav-link text-white" href="?page=contact">Contact</a>
                 </li>
                 <li class="nav-item dropdown px-2">

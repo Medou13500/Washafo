@@ -3,13 +3,14 @@
     <section class="bg-washafo-blue text-white text-center py-5">
     <div class="container">
         <h1 class="fw-bold display-5 mb-3">
-        Bienvenue chez <span class="text-washafo-yellow">Washafo</span>
+        Bienvenue chez <span class="text-white">Washafo</span>
         </h1>
         <p class="lead mb-4">
         Votre expert du nettoyage automobile et textile à domicile.<br>
         Un service simple, efficace, et de qualité directement chez vous.
         </p>
-        <a href="#prestations" class="btn btn-outline-light btn-lg">Découvrir nos prestations</a>
+       <a href="#prestations" class="btn btn-outline-light">Découvrir nos prestations</a>
+
     </div>
     </section>
 
@@ -73,6 +74,6 @@
         <div class="container">
             <h3 class="fw-bold mb-3 text-dark">Besoin d’un devis rapide ?</h3>
             <p class="text-muted mb-4">Contactez-nous pour planifier votre nettoyage à domicile</p>
-            <a href="?page=contact" class="btn btn-washafo-yellow btn-lg text-white">Nous contacter</a>
+            <a href="?page=contact" class=" btn btn-outline-light bg-washafo-blue btn-lg">Nous contacter</a>
         </div>
         </section>
