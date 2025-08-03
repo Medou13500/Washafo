@@ -70,10 +70,26 @@
         </section>
 
 <!-- DEVIS -->
-        <section class="py-5 text-center bg-white">
-        <div class="container">
-            <h3 class="fw-bold mb-3 text-dark">Besoin d’un devis rapide ?</h3>
-            <p class="text-muted mb-4">Contactez-nous pour planifier votre nettoyage à domicile</p>
-            <a href="?page=contact" class=" btn btn-outline-light bg-washafo-blue btn-lg">Nous contacter</a>
+       <section class="text-center py-5 bg-light">
+  <h3 class="fw-bold mb-2">Besoin d'un devis rapide ?</h3>
+  <p class="text-muted mb-4">Contactez-nous pour planifier votre nettoyage à domicile</p>
+  <button class="btn btn-primary px-4 mb-4">Nous contacter</button>
+  
+    <div class="d-flex justify-content-center">
+    <div class="card text-center p-5 border border-primary shadow-lg"
+        style="width: 420px; min-height: 500px; border-radius: 18px;">
+        
+        <div class="image-container">
+        <img src="../public /assets/img/leny.jpg" 
+            class="rounded-circle mx-auto mb-3 border border-primary"
+            style="width: 270px; height: 270px; object-fit: cover;" 
+            alt="Leny Affolabi">
         </div>
-        </section>
+
+        <h5 class="fw-bold text-dark mb-1">Leny Affolabi</h5>
+        <p class="text-muted mb-3">Co-fondateur Washafo</p>
+    </div>
+    </div>
+
+
+    </section>

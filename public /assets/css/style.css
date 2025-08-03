@@ -105,3 +105,29 @@ html {
     transform: scale(1.05);
     cursor: pointer;
 }
+/* Effet de halo autour de la card */
+.profile-card::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background: linear-gradient(45deg, #007bff, #00d4ff, #007bff);
+  border-radius: 18px;
+  z-index: -1;
+  filter: blur(8px);
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+/* Accentuation du halo au hover */
+.profile-card:hover::before {
+  opacity: 0.9;
+}
+
+/* Zoom léger au hover */
+.profile-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
